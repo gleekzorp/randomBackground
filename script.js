@@ -1,6 +1,7 @@
 function myFunction() {
-    document.body.style.background = randomHex();
-    document.getElementById('hex-text').innerText = randomHex();
+    var hexadecimal = randomHex()
+    document.body.style.background = hexadecimal;
+    document.getElementById('hex-text').innerText = hexadecimal;
 }
 
 function randomHex() {

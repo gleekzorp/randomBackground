@@ -1,3 +1,7 @@
+body {
+    background: #2b6666;
+}
+
 .button-wrapper {
     display: flex;
     justify-content: center;
@@ -23,4 +27,5 @@ button {
     background-color: black;
     border: 10px solid white;
     padding: 20px;
+    cursor: pointer;
 }
