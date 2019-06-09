@@ -1,0 +1,26 @@
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.hex-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 4em;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+button {
+    font-size: 4em;
+    font-weight: 900;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: 10px solid white;
+    padding: 20px;
+}
