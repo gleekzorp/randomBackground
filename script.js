@@ -6,14 +6,10 @@ function myFunction() {
 
 function randomHex() {
     var hex = [];
-    const combo = ['a', 'b', 'c', 'd', 'e', 'f', 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    const hexList = ['a', 'b', 'c', 'd', 'e', 'f', 1, 2, 3, 4, 5, 6, 7, 8, 9]
     
-    for (let i = 0; i < 6; i++) {
-        
-        let randomThing = Math.floor(Math.random() * combo.length)
-        
-        hex.push(combo[randomThing])
+    for (let i = 0; i < 6; i++) {        
+        hex.push(hexList[Math.floor(Math.random() * hexList.length)])
     }
-        console.log(`"#${hex.join('')}"`);
         return `#${hex.join('')}`
   }
